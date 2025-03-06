@@ -4,9 +4,9 @@
  */
 
 public class Producto {
-    public String n;
-    public double p;
-    public int s;
+    private String n;
+    private double p;
+    private int s;
 
     public Producto(String nombre, double precio, int stock) {
         this.n = nombre;
