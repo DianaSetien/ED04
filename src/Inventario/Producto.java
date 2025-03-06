@@ -4,23 +4,23 @@
  */
 
 public class Producto {
-    private String n;
-    private double p;
-    private int s;
+    private String nombre;
+    private double precio;
+    private int stock;
 
     public Producto(String nombre, double precio, int stock) {
-        this.n = nombre;
-        this.p = precio;
-        this.s = stock;
+        this.nombre = nombre;
+        this.precio = precio;
+        this.stock = stock;
     }
 
     public void mostrarInformacion() {
-        System.out.println("Producto: " + n + " | Precio: " + p + " | Stock: " + s);
+        System.out.println("Producto: " + nombre + " | Precio: " + precio + " | Stock: " + stock);
     }
 
     public void borrarDatos() {
-        n = "";
-        p = 0.0;
-        s = 0;
+        nombre = "";
+        precio = 0.0;
+        stock = 0;
     }
 }
